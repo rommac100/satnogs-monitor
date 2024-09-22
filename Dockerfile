@@ -16,7 +16,7 @@ RUN     ldconfig
 RUN     rustup install stable
 
 WORKDIR /
-RUN     git clone https://github.com/wose/satnogs-monitor.git
+RUN     git clone https://github.com/rommac100/satnogs-monitor.git
 WORKDIR /satnogs-monitor/monitor
 RUN     cargo build --release
 
